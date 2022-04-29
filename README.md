@@ -7,6 +7,8 @@
            pip install textstat
            python3 compute_baseline_scores.py
  3. Run the NLP_Project_LSTM_based_NN.ipynb
+           
+           get the tranied checkpoint files from https://drive.google.com/drive/folders/1CL5qMUBbFm8IQ_jrsYLciSQJRXIBl3cV?usp=sharing
            load the weights using 
            checkpoint_path = "./train_ckpt/cp.ckpt"
            model_ckpt2 = create_model()
