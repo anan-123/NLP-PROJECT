@@ -6,7 +6,7 @@
  2. Baseline readability scores
            pip install textstat
            python3 compute_baseline_scores.py
- 3.Run the NLP_Project_LSTM_based_NN.ipynb
+ 3. Run the NLP_Project_LSTM_based_NN.ipynb
            load the weights using 
            checkpoint_path = "./train_ckpt/cp.ckpt"
            model_ckpt2 = create_model()
