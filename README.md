@@ -3,6 +3,9 @@
 ## RUN CODE
  1. statistical N-gram model  
            python3 statistical\ N-gram.py
+ 2. Baseline readability scores
+           pip install textstat
+           python3 compute_baseline_scores.py
 ## Measure Text Fluency
 
 We aim to measure the fluency of text in corpus. Fluency is commonly considered as one of the dimensions of text quality of MT. Fluency measures the quality of the generated text (e.g., the target translated sentence) i.e how much a sentence is perceived as natural by a human reader, without taking the source into account. It accounts for criteria such as grammar, spelling, choice of words, and style. To understand text fluency we first need to check how readable the text is. The readability of text depends on its content (the complexity of its vocabulary and syntax). It focuses on the words we choose, and how we put them into sentences and paragraphs for the readers to comprehend.
@@ -17,4 +20,5 @@ Fluency score = (2*(R1 + R2 + R3 + R4 + R5) + 3*(ST) + 5*(NLM))/(2*5 + 3 + 5)
 
 Then each weighted mean score is scaled to 10 ; low score means better in fluency and can be perceived better.
 Then we randomly selected 100 sentence from corpus;and manually calculated Fluency score from scale of 1 to 10 following below rules:
+
 
