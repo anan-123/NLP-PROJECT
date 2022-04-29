@@ -1,7 +1,8 @@
 # NLP-PROJECT
 
 ## RUN CODE
- 1. statistical N-gram model   :   python3 statistical\ N-gram.py
+ 1. statistical N-gram model  
+           python3 statistical\ N-gram.py
 ## Measure Text Fluency
 
 We aim to measure the fluency of text in corpus. Fluency is commonly considered as one of the dimensions of text quality of MT. Fluency measures the quality of the generated text (e.g., the target translated sentence) i.e how much a sentence is perceived as natural by a human reader, without taking the source into account. It accounts for criteria such as grammar, spelling, choice of words, and style. To understand text fluency we first need to check how readable the text is. The readability of text depends on its content (the complexity of its vocabulary and syntax). It focuses on the words we choose, and how we put them into sentences and paragraphs for the readers to comprehend.
